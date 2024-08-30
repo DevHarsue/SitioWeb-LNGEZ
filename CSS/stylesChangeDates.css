@@ -1,0 +1,25 @@
+
+h6{
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.main__form{
+	display: none;
+}
+
+.main__form h6{
+	margin: 0;
+}
+
+.main__form-elegir{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+}
+
+.main__form-elegir button{
+	margin-bottom: 1em;
+	width: 50%
+}
+

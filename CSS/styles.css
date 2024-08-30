@@ -1,0 +1,55 @@
+*{
+	font-family: Agency FB, sans-serif;
+	font-size: 24px;
+	color: #444;
+	padding: 0;
+	margin: 0;
+}
+
+.private{
+	display: none;
+}
+
+.fondo{
+	background-image: url('../IMG/fondo2.jpg');	
+	background-position: center;
+	background-size: 100% 100%;
+	position: fixed;
+	z-index: 0;
+	width: 100vw;
+	min-width: 9em;
+	height: 100vh;	
+	user-select: none;
+	filter: blur(9px);			
+}
+
+:root{
+	--color-amarillo-1: #f5e951;
+    --color-amarillo-2: #e1d75d;
+    --color-verde-1: #94cc6d;
+    --color-verde-2: #8bc563;
+}
+
+@media (min-width: 1300px){
+	*{
+		font-size: 36px;
+	}
+}
+
+@media (min-width: 2304px){
+	*{
+		font-size: 48px;
+	}
+}
+
+@media (min-width: 3456px){
+	*{
+		font-size: 60px;
+	}
+}
+
+@media (min-width: 4608px){
+	*{
+		font-size: 72px;
+	}
+}

@@ -1,0 +1,111 @@
+
+.aparecerHorizontal{animation: aparecerHorizontal 1s linear forwards;}
+
+.desaparecerHorizontal{animation: desaparecerHorizontal 1s linear forwards;}
+
+.girarNormal{animation: girarNormal .7s linear forwards;}
+
+.girarReversa{animation: girarReversa .7s linear forwards;}
+
+.aparecerVertical{animation: aparecerVertical .8s linear forwards;}
+
+.desaparecerVertical{animation: desaparecerVertical .8s linear forwards;}
+
+.labelArriba{animation: labelArriba .4s linear forwards;}
+
+.labelAbajo{animation: labelAbajo .4s linear forwards;}
+
+.aparecerTransparencia{animation: aparecerTransparencia .3s linear forwards;}
+
+.desaparecerTransparencia{animation: desaparecerTransparencia .3s linear forwards;}
+
+@keyframes aparecerHorizontal{
+	0%{
+		transform: translateX(-100%);	
+	}
+	100%{
+		transform: translateX(0);
+	} 
+}
+
+@keyframes desaparecerHorizontal{
+	0%{
+		transform: translateX(0);	
+	}
+	100%{
+		transform: translateX(-100%);
+	} 
+}
+
+@keyframes aparecerVertical{
+	0%{
+		transform: translateY(-100%);	
+	}
+	100%{
+		transform: translateY(0);
+	} 
+}
+
+@keyframes desaparecerVertical{
+	0%{
+		transform: translateY(0);	
+	}
+	100%{
+		transform: translateY(-100%);
+	} 
+}
+
+@keyframes girarNormal{
+	0%{
+		transform: rotate(0);	
+	}
+	100%{
+		transform: rotate(360deg);
+	} 
+}
+
+@keyframes girarReversa{
+	0%{
+		transform: rotate(360deg);
+	}
+	100%{
+		transform: rotate(0);			
+	} 
+}
+
+
+@keyframes aparecerTransparencia{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@keyframes desaparecerTransparencia{
+	0%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+@keyframes labelArriba{
+	0%{
+		transform: translateY(150%) scale(.8) /*translateX(-7%)*/;
+	}
+	100%{
+		transform: translateY(0%) scale(1) /*translateX(-7%)*/;
+	}
+}
+
+@keyframes labelAbajo{	
+	0%{
+		transform: translateY(0%) scale(1) /*translateX(-7%)*/;
+	}
+	100%{
+		transform: translateY(150%) scale(.8) /*translateX(-7%)*/;
+	}
+}

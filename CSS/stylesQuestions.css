@@ -1,0 +1,32 @@
+.main__article{
+	display: block;
+}
+
+.accordion-item{
+	white-space: initial;	
+	margin-bottom: 1em;
+	border: none;
+	background: var(--color-amarillo-1);
+}
+
+
+.accordion-button{
+	background: var(--color-amarillo-1);
+	text-shadow: 0 0 5px var(--color-verde-1);
+	font-weight: 900;
+	text-transform: normal;
+}
+
+.accordion-button:not(.collapsed){
+	background: none;
+	color: #444;
+}
+
+.accordion-button:focus{
+	box-shadow: none;
+}
+
+.accordion-body{
+	text-shadow: 0 0 5px var(--color-verde-1);
+}
+

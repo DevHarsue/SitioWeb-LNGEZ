@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" href="img/Logo.jpg">
+		<meta name="description" content="Liceo Nacional Ezequiel Zamora es una institución educativa">
+		<meta name="author" content="DevHarsue">
+		<meta name="robots" content="index">
+		<meta name="keywords" content="Liceo,institución,General Ezequiel Zamora,Ezequiel Zamora">		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">	
+
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+		<link rel="stylesheet" type="text/css" href="CSS/stylesGenerics.css">
+		<link rel="stylesheet" type="text/css" href="CSS/stylesAnimations.css">
+		<link rel="stylesheet" type="text/css" href="CSS/stylesSession.css">
+		<link rel="stylesheet" type="text/css" href="CSS/stylesFooter.css">
+		<title>Registro</title>
+	</head>
+	<body>
+		<div class="fondo"></div>
+		<div class="modal">
+			<div class="contenedor">
+				<p class="green">Registro Realizado Correctamente!</p>
+				<button id="boton-ok" class="btn-amarillo">OK</button>
+			</div>
+		</div>
+		<button class="boton-atras"><img src="IMG/flecha.png"></button>
+		<main class="main">
+			<div class="main__container-formulario">
+				<h1 class="texto-amarillo">Registo de Usuario</h1>
+				<div class="main__container-img"><img src="IMG/Logo.jpg" width="200px"></div>
+				<form class="main__form" id="formulario" method="post" autocomplete="off">
+					<label class="texto-amarillo">Introduce Usuario</label>
+					<input type="text" id="usuario" class="input" required>
+					<span id="btn-usuario" class="boton-ayuda">?</span>
+
+					<label class="texto-amarillo">Introduce Email</label>
+					<input type="email" id="correo" class="input" required>
+					<span id="btn-correo" class="boton-ayuda">?</span>
+
+					<label class="texto-amarillo">Introduce Contraseña</label>
+					<input type="password" id="clave" class="input" required>
+					<span id="btn-clave" class="boton-ayuda">?</span>
+
+					<label class="texto-amarillo">Confirma Contraseña</label>
+					<input type="password" id="comprobacion" class="input" required>
+					<span id="btn-comprobacion" class="boton-ayuda">?</span>
+
+					<div class="contenedor-boton-sesion"><button id="boton-sesion" class="btn-amarillo">Registrarse</button></div>
+				</form>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<section class="footer__section">
+				<h5>Enlaces rapidos</h5>
+				<ul>
+					<li><a href="https://www.facebook.com/profile.php?id=100013660789128">Facebook</a></li>
+					<li><a href="https://www.facebook.com/profile.php?id=100013660789128">Instagram</a></li>
+				</ul>
+			</section>
+			<section class="footer__section">
+				<h5>Informacion de contacto</h5>
+				<ul>
+					<li>Telefono:<br>0276-3486732</li>
+					<li>Correo electronico:<br>secundariagez@gmail.com</li>
+				</ul>
+			</section>
+			<section class="footer__section">
+				<h5>Direccion</h5>
+				<p>Municipio Torbes, Palmar de la Cope, Nuevo, Sector IV, Calle 8</p>
+				<p>RIF: J-29567453-8</p>
+			</section>
+			<section class="footer__section">
+				<p>
+					Copyright 2023.<br>
+					Todos los derechos reservados.
+				</p>
+			</section>
+		</footer>
+		
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="JS/withInputs.js"></script>
+		<script type="text/javascript" src="JS/modal.js"></script>			
+		<script type="text/javascript" src="JS/eventsSessionRegister.js"></script>	
+		<script type="text/javascript" src="JS/register.js"></script>		
+		<script type="text/javascript" src="JS/btnsHelpers.js"></script>		
+	</body>
+</html>

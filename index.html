@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" href="img/Logo.jpg">
+		<meta name="description" content="Liceo Nacional Ezequiel Zamora es una institución educativa">
+		<meta name="author" content="DevHarsue">
+		<meta name="robots" content="index">
+		<meta name="keywords" content="Liceo,institución,General Ezequiel Zamora,Ezequiel Zamora">		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">	
+
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+		<link rel="stylesheet" type="text/css" href="CSS/stylesGenerics.css">		
+		<link rel="stylesheet" type="text/css" href="CSS/stylesAnimations.css">
+		<link rel="stylesheet" type="text/css" href="CSS/stylesHeader.css">
+		<link rel="stylesheet" type="text/css" href="CSS/stylesMain.css">
+		<link rel="stylesheet" type="text/css" href="CSS/stylesFooter.css">
+		<title>Inicio</title>
+	</head>
+	<body>
+		<div class="fondo"></div>
+		<!-- Navegacion -->
+		<header class="header">
+			<nav class="header__nav">
+				<div class="container-button-menu">
+					<button id="button-menu"><img src="IMG/menu.png"></button>
+				</div>		
+				<!--Enlaces -->
+				<ul class="header__nav-ul">
+					<li><a href="index.html"><img src="IMG/Logo.jpg"></a></li>
+					<li><a href="info.html">¿Quienes Somos?</a></li>
+					<li><a href="questions.html">Preguntas Frecuentes</a></li>
+					<li class="private"><a href="simbolos.html">Simbolos Institucionales</a></li>
+					<li class="private"><a href="admin.html">Procesos Administrativos</a></li>
+				</ul>				
+			</nav>	
+			<!-- Botones -->
+			<div class="container-inicio-sesion">
+				<button id="inicio-sesion" class="btn-amarillo">Acceder</button>
+				<button id="btn-registro" class="btn-amarillo">Registrarse</button>
+				<button id="cerrar-sesion" class="btn-rojo">Cerrar Sesion</button>
+			</div>
+		</header>	
+
+		<!-- Contenido -->
+		<main class="main">
+			<h1 class="main__titulo texto-amarillo">LICEO NACIONAL GENERAL EZEQUIEL ZAMORA</h1>
+			<article class="main__article">
+				<h3 class="texto-verde">Breve reseña historica del Liceo Nacional General Ezequiel Zamora.</h3>
+				<div class="main__img-container">
+					<!-- inicio -->
+					<div id="carruselLiceo" class="carousel slide">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carruselLiceo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carruselLiceo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carruselLiceo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="IMG/fondo.jpg" class="d-block w-100 main__img" alt="Liceo">
+								<div class="carousel-caption d-none d-md-block"></div>
+							</div>
+							<div class="carousel-item">
+								<img src="IMG/fondo2.jpg" class="d-block w-100 main__img" alt="Liceo">
+								<div class="carousel-caption d-none d-md-block"></div>
+							</div>
+							<div class="carousel-item">
+								<img src="IMG/fondo3.jpg" class="d-block w-100 main__img" alt="Liceo">
+								<div class="carousel-caption d-none d-md-block"></div>
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carruselLiceo" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carruselLiceo" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+					<!-- fin -->
+				</div>
+				<p class="texto-amarillo">Un 28 de Noviembre de 2001, abrió las puertas por primera vez en la población del Palmar de la Copé, la primera y única Institución de Educación Media, Luego de haber funcionado en el establecimiento un  Colegio denominado Nueva República, la casa de estudio empezó con solo siete secciones de Educación Básica, de séptimo a noveno grado. Comenzó a funcionar, con el nombre de Escuela Básica Simón Bolívar, más tarde recibe el nombre de Escuela Básica  El Palmar de la Copé y fue en su Segundo Año, cuando recibe el nombre de U.E.N.Gral. Ezequiel Zamora. <br>
+				Actualmente, la institución presenta el nombre de Liceo Nacional Gral. Ezequiel Zamora, y cuenta con todas las coordinaciones mencionadas, en el Subsistema de Educación Media General, pues, partiendo de esta premisa, se concibe como FORMAL-FUNCIONAL, la estructura organizacional que utiliza el Liceo Nacional. 
+				</p>
+			</article>
+			<aside class="main__aside">
+				<h4 class="texto-verde">Proximos Eventos.</h4>
+				<div class="main__img-container">
+					<!-- inicio -->
+					<div id="carruselEvents" class="carousel slide">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carruselEvents" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carruselEvents" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carruselEvents" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="IMG/proximamente.png" class="d-block w-100 main__img" alt="Liceo">
+								<div class="carousel-caption d-none d-md-block"></div>
+							</div>
+							<div class="carousel-item">
+								<img src="IMG/proximamente.png" class="d-block w-100 main__img" alt="Liceo">
+								<div class="carousel-caption d-none d-md-block"></div>
+							</div>
+							<div class="carousel-item">
+								<img src="IMG/proximamente.png" class="d-block w-100 main__img" alt="Liceo">
+								<div class="carousel-caption d-none d-md-block"></div>
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carruselEvents" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carruselEvents" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+					<!-- fin -->
+				</div>
+				<p class="texto-amarillo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</aside>
+		</main>
+
+		<!-- PieDePagina -->
+		<footer class="footer">
+			<section class="footer__section">
+				<h5>Enlaces rapidos</h5>
+				<ul>
+					<li><a href="https://www.facebook.com/profile.php?id=100013660789128">Facebook</a></li>
+					<li><a href="https://www.facebook.com/profile.php?id=100013660789128">Instagram</a></li>
+				</ul>
+			</section>
+			<section class="footer__section">
+				<h5>Informacion de contacto</h5>
+				<ul>
+					<li>Telefono:<br>0276-3486732</li>
+					<li>Correo electronico:<br>secundariagez@gmail.com</li>
+				</ul>
+			</section>
+			<section class="footer__section">
+				<h5>Direccion</h5>
+				<p>Municipio Torbes, Palmar de la Cope, Nuevo, Sector IV, Calle 8</p>
+				<p>RIF: J-29567453-8</p>
+			</section>
+			<section class="footer__section">
+				<p>
+					Copyright 2023.<br>
+					Todos los derechos reservados.
+				</p>
+			</section>
+		</footer>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="JS/mediaQuery.js"></script>
+		<script type="text/javascript" src="JS/header.js"></script>		
+		<script type="text/javascript" src="JS/hiddenHeader.js"></script>		
+		<script type="text/javascript" src="JS/checkSession.js"></script>		
+	</body>
+</html>
